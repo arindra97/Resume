@@ -21,7 +21,9 @@ header h2,p{
 }
 
 /* CONTENT */
-
+.content{
+    width: 100%;
+}
 /* Social Media */
 .content .top-content{
     display:flex;
@@ -39,4 +41,17 @@ header h2,p{
 
 .content .divider{
     color: #3366cc;
+}
+
+.content .main-content{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin:1.5em;
+}
+
+.content .card{
+    width: 80%;
+    height: 15em;
+    background-color: #12cc99;
 }
