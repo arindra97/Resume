@@ -88,6 +88,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    filter: drop-shadow(0.5em 0.5em 0.75rem #0000002a);
 }
 
 .content .main-content .card .card-content {
@@ -103,6 +104,12 @@ p {
     flex-direction: column;
     justify-content: stretch;
     text-align: justify;
+}
+
+.content .main-content .card .card-right h2,
+h3,
+p {
+    margin: 0;
 }
 
 .content .main-content .card .card-right .line {
