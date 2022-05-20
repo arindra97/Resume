@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    background-color: #efefef;
+    font-family: Helvetica Neue;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 12em;
+    border-radius: 50%;
+    padding: 2em 0;
+}
+
+header h2,
+p {
+    margin: 0.3em;
+}
+
+
+/* Top Content Social Media */
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+
+.social-media svg {
+    padding: 0 1em;
+    width: 2em;
+    height: 2em;
+    color: #3366cc;
+}
+
+.divider {
+    color: #3366cc;
+}
+
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content .left {
+    /* background-color: #93c5fd; */
+    /* makan 30% dari flex yang ada */
+    /* ingat: parent 100%, jadi basisnya makan 30% dari 100% */
+    flex-basis: 25%;
+    /* kasih margin biar ada "jarak" sedikit */
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.content .main-content {
+    /* background-color: #f0abfc; */
+    /* makan "sisa" dari flex yang ada */
+    /* gunakan flex-grow supaya dinamis */
+    flex-grow: 1;
+    /* kasih margin biar ada jarak sedikit */
+    margin-right: 0.25rem;
+    margin-top: 0.25rem;
+    /* kita mainkan heightnya */
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .main-content .card {
+    width: 80%;
+    overflow: hidden;
+    padding: 1.5em;
+    margin: 1em;
+    background-color: #92f3c4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .main-content .card .card-content {
+    flex-basis: 25%;
+    padding: 0 3em;
+}
+
+.content .main-content .card .card-right {
+    width: 100%;
+    padding: 1.5em 2.5em 1.5em 0;
+    line-height: 1.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: justify;
+}
+
+.content .main-content .card .card-right .line {
+    width: 90%;
+    border-top: 1px solid #efefef;
+}
