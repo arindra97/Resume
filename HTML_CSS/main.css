@@ -60,7 +60,7 @@ p {
     /* background-color: #93c5fd; */
     /* makan 30% dari flex yang ada */
     /* ingat: parent 100%, jadi basisnya makan 30% dari 100% */
-    flex-basis: 25%;
+    flex-basis: 50%;
     /* kasih margin biar ada "jarak" sedikit */
     margin-left: 0.25rem;
     margin-top: 0.25rem;
@@ -126,14 +126,64 @@ p {
 
 .content .main-content .card .card-right .portofolio-section img{
     margin-right: 2em;
-    width: 15em;
-    height: 15em;
+    width: 10em;
+    height: 10em;
     border-radius: 0 20%;
 }
 
 .content .main-content .card .card-right .portofolio-section img.rectangle{
     margin-right: 2em;
-    width: 30em;
-    height: 15em;
+    width: 20em;
+    height: 10em;
     border-radius: 0;
+}
+
+.content .main-content .card .card-right form.form .sub-form{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.content .main-content .card .card-right form.form .sub-form label{
+    font-weight:bold;
+}
+
+.content .main-content .card .card-right form.form .sub-form input, select{
+    height: 2.5em;
+    border-style:none;
+    margin-bottom:0.75em;
+}
+
+.content .main-content .card .card-right form.form .sub-form textarea{
+    border-style:none;
+    margin-bottom:1.5em;
+}
+
+
+.content .main-content .card .card-right form.form button{
+    padding: 1em 2em;
+    border-style:none;
+    background-color: #3366ccbb;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.content .main-content .card .card-right form.form button:hover{
+    padding: 1em 2em;
+    border-style:none;
+    background-color: #3366cc;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 2em;
+    padding: 0.5em 0;
+    height: 2rem;
+    background-color:#3366cc;
+    color:#fff;
+    font-size:1rem;
+    text-align:center;
 }
