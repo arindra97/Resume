@@ -2,6 +2,7 @@ body {
     width: 100%;
     background-color: #efefef;
     font-family: Helvetica Neue;
+    color: #4a4a4a;
 }
 
 
@@ -74,7 +75,6 @@ p {
     margin-right: 0.25rem;
     margin-top: 0.25rem;
     /* kita mainkan heightnya */
-    height: 98vh;
     display: flex;
     flex-direction: column;
 }
@@ -99,7 +99,7 @@ p {
 .content .main-content .card .card-right {
     width: 100%;
     padding: 1.5em 2.5em 1.5em 0;
-    line-height: 1.75em;
+    line-height: 1.9em;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -113,6 +113,6 @@ p {
 }
 
 .content .main-content .card .card-right .line {
-    width: 90%;
-    border-top: 1px solid #efefef;
+    width: 100%;
+    border-top: 1px solid #4a4a4a;
 }
