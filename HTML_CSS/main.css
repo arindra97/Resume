@@ -116,3 +116,24 @@ p {
     width: 100%;
     border-top: 1px solid #4a4a4a;
 }
+
+.content .main-content .card .card-right .portofolio-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.content .main-content .card .card-right .portofolio-section img{
+    margin-right: 2em;
+    width: 15em;
+    height: 15em;
+    border-radius: 0 20%;
+}
+
+.content .main-content .card .card-right .portofolio-section img.rectangle{
+    margin-right: 2em;
+    width: 30em;
+    height: 15em;
+    border-radius: 0;
+}
